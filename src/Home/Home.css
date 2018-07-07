@@ -1,0 +1,27 @@
+.home {
+	text-align: center;
+	display:grid;
+  grid-template-columns: 5fr 11fr;
+  grid-template-rows: 2fr 20fr 2fr;
+  grid-template-areas: 
+    "menu menu"
+    "left main"
+	"footer footer";
+	height: 100vh;
+}
+
+.footer{
+	grid-area: footer;
+}
+
+.left{
+	grid-area: left;
+}
+
+.main {
+	grid-area:main;
+}
+
+body {
+	
+}
